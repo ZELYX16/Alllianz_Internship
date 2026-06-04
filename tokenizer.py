@@ -6,7 +6,7 @@ import tiktoken
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("filename")
-    parser.add_argument("--cost",default = 1, type=float)
+    parser.add_argument("--cost",default = 2.5/1000000, type=float)
     args = parser.parse_args()
 
     encoding = tiktoken.get_encoding("cl100k_base")
