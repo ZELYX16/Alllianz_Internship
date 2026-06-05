@@ -12,6 +12,7 @@ def main():
     encoding = tiktoken.get_encoding("cl100k_base")
     num_tokens = 0
 
+    
     try:
         with open(args.filename,"r") as f:
             content = f.read()
@@ -23,7 +24,7 @@ def main():
         print(f'Cost: $, {((num_tokens/1000000)*args.cost):.6f}')
 
     except FileNotFoundError:
-        print("The file doesnt exists")
+        print("Error : The file doesn't exist.")
     
     
 if __name__ == "__main__":
