@@ -24,3 +24,9 @@ print(f'Removed k from the list : {data_1}')
 
 data_1.reverse()
 print(f'Reversed the list : {data_1}')
+
+import tiktoken
+from Data import ENCODING_MAP
+
+for key in ENCODING_MAP.keys():
+    print(f"Model : {key} : {tiktoken.encoding_for_model(key)}")
