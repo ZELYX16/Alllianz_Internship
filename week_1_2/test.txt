@@ -1,0 +1,3 @@
+CLI task for week 1.
+
+FastApi  and docker for week 3 
