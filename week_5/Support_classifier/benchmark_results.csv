@@ -1,0 +1,4 @@
+Version,Accuracy (%),Total Input Tokens,Total Output Tokens,Projected Cost (USD)
+v1_Zero-Shot ,80.0,3093,97,0.000797
+v2_Few-Shot ,77.5,7013,121,0.001783
+v3_CoT ,95.0,12853,2590,0.003861
