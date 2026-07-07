@@ -1,0 +1,15 @@
+Model Name,Company,Simple Feature,Easy to Run
+Llama 3 8B,Meta,Good at general conversation,Yes
+Llama 3 70B,Meta,Very smart but very heavy,No
+Qwen 2.5 7B,Alibaba,Excellent at using tools,Yes
+Qwen 2.5 14B,Alibaba,Good balance of speed and smarts,Yes
+Phi 3 Mini,Microsoft,Tiny model for small laptops,Yes
+Phi 3 Medium,Microsoft,Medium model for standard laptops,Yes
+Gemma 2 9B,Google,Great at math and logic,Yes
+Gemma 2 27B,Google,Smart but needs a good GPU,No
+Mistral 7B,Mistral,Very fast at writing summaries,Yes
+Mixtral 8x7B,Mistral,Uses high quality expert paths,No
+Claude Haiku,Anthropic,Cloud model that is very fast,Yes
+Claude Sonnet,Anthropic,Cloud model that is very smart,Yes
+GPT-4o Mini,OpenAI,Cloud model that is very cheap,Yes
+GPT-4o,OpenAI,Cloud model that is standard flagship,Yes
