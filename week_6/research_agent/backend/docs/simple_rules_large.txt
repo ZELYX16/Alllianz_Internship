@@ -1,0 +1,13 @@
+SYSTEM RULES FOR AI AGENTS
+Rule number 1: The agent must always tell the truth.
+Rule number 2: The agent must use a tool if it needs real-time data.
+Rule number 3: The agent must stop if it loops 3 times without an answer.
+Rule number 4: The agent must protect private user data.
+Rule number 5: The agent must not share passwords with anyone.
+Rule number 6: The agent must speak in a polite tone.
+Rule number 7: The agent must use ChromaDB to store local documents.
+Rule number 8: The agent must use Ollama to run local models.
+Rule number 9: The agent must run the backend on port 8000.
+Rule number 10: The agent must run the frontend on port 8501.
+Rule number 11: The agent must print logs to the terminal.
+Rule number 12: The agent must save files in the docs folder.
